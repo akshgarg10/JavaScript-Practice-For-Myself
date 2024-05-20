@@ -79,3 +79,86 @@
 // 2.
 // companies.splice(companies.length,1,"Amazon");
 // console.log(`Final list is ${companies}`);
+
+
+
+//function
+// function myFunction(msg){
+//     console.log("ban gaya function");
+//     let object = {
+//         name:"Aksh",
+//         age:22,
+//     };
+//     console.log(object);
+//     console.log(msg);
+// }
+// //function call
+// myFunction("Susain");
+
+//function to add two numbers
+// function sum(a,b){
+//     return a+b;
+// }
+
+// console.log(sum(5,9));
+
+// arrow function
+// const myFunction = (a,b) => {
+//     console.log("arrow vi working aa baabe");
+//     console.log(a+b);
+// }
+// myFunction(10,20);
+
+// task 
+// function vowelString(str){
+//     let count =0;
+//     for(let i =0;i<str.length;i++){
+//         if(str.charAt(i) == 'a'|| str.charAt(i) == 'e'|| str.charAt(i) == 'i'|| str.charAt(i) == 'o'|| str.charAt(i) == 'u'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// let answer = vowelString("aieoupl");
+// console.log(answer);
+
+//using arrow function
+// const vowelString2 = (str2) => {
+//     let count =0;
+//     for(let i =0;i<str2.length;i++){
+//         if(str2.charAt(i) == 'a'|| str2.charAt(i) == 'e'|| str2.charAt(i) == 'i'|| str2.charAt(i) == 'o'|| str2.charAt(i) == 'u'){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// let answer = vowelString2("ashbiuoepgdjvxkmln");
+// console.log(answer);
+
+// for each loop - high order function
+// let arr = [1,2,3,4,5,"seltos","kuduku"];
+// // arr.forEach(function myValue(val){
+// //     console.log(val);
+// // });
+// arr.forEach((val, index, arr) => {
+//     console.log(val, index, arr);
+// });
+
+// task
+// let arr=[1,2,3,4,5,6];
+// arr.forEach((val) => {
+//     console.log(val**2);
+// }); 
+
+//array map
+// let arr=[1,2,3,4,5,6,7,8,9];
+
+// let mitra = arr.map((val) => {
+//     return val;
+// })
+// console.log(mitra);
+
+// arr.map((val) => {
+//     console.log(val);
+// })
