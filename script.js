@@ -162,3 +162,43 @@
 // arr.map((val) => {
 //     console.log(val);
 // })
+
+//task
+// let hero = document.getElementById("task1");
+// console.dir(hero);
+// console.dir(hero.innerText)
+// hero.innerText = hero.innerText + " from Himachal to Haryana";
+// console.dir(hero.innerText);
+
+//task
+// let heroBtn = document.createElement("button");
+// heroBtn.innerText = "Click me ";
+// heroBtn.style.color = "white";
+// heroBtn.style.backgroundColor = "red"
+// console.log(heroBtn);
+// console.log(heroBtn.innerText);
+
+// document.querySelector("body").prepend(heroBtn);
+
+//task2
+// let syn = document.querySelector("p");
+
+
+
+
+//events
+let unq1 = document.querySelector("#unq1");
+
+unq1.addEventListener("click", () => {
+    console.log("edited");
+});
+unq1.addEventListener("mouseover", () => {
+    console.log("edtied 2");
+});
+
+let unq2 = document.querySelector("#unq2");
+
+//another way but
+unq2.ondblclick = () => {
+    console.log("Double click working")
+};
